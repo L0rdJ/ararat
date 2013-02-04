@@ -18,7 +18,6 @@ SessionNamePerSiteAccess=disabled
 
 [SiteSettings]
 SiteName=Арарат
-SiteURL=rus.1/index.php
 LoginPage=embedded
 AdditionalLoginFormActionURL=http://admin.ararat.org.ua/index.php/user/login
 
@@ -28,13 +27,12 @@ RegistrationEmail=
 [SiteAccessSettings]
 RequireUserLogin=false
 RelatedSiteAccessList[]
-RelatedSiteAccessList[]=ezwebin_site_clean_user
 RelatedSiteAccessList[]=rus
-RelatedSiteAccessList[]=ezwebin_site_clean_admin
+RelatedSiteAccessList[]=admin
 ShowHiddenNodes=false
 
 [DesignSettings]
-SiteDesign=ezwebin
+SiteDesign=base
 AdditionalSiteDesignList[]
 AdditionalSiteDesignList[]=base
 
